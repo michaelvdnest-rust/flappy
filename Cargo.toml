@@ -2,7 +2,14 @@
 name = "flappy"
 version = "0.1.0"
 edition = "2021"
+description = "Flappy Dragon - a Flappy Bird clone."
+readme = "README.md"
+repository = "https://github.com/michaelvdnest-rust/flappy"
+license = "MIT"
+keywords = ["learn", "game", "rust"]
+categories = ["learn", "game", "rust"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bracket-lib = "~0.8.7"
